@@ -1,0 +1,41 @@
+{
+  "name": "berbagi_rezeki",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "NODE_ENV=development npx nodemon index",
+    "test": "set NODE_ENV=test&& jest --detectOpenHandles --forceExit --coverage",
+    "start": "node index.js"
+  },
+  "engines": {
+    "node ": "14.18.0"
+  },
+  "author": "muhazi",
+  "license": "ISC",
+  "devDependencies": {
+    "faker": "^6.6.6",
+    "nodemon": "^2.0.19",
+    "sequelize-cli": "^6.4.1"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.1",
+    "file-upload": "0.0.0",
+    "jest": "^27.4.0",
+    "jest-config": "^27.3.1",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.1",
+    "mysql2": "^2.3.2",
+    "postgre": "^0.1.8",
+    "sequelize": "^6.9.0",
+    "supertest": "^6.1.6",
+    "test": "^0.6.0",
+    "validate-date": "^2.0.0",
+    "validator": "^13.6.0"
+  }
+}
